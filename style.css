@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    padding-top: 50px;
+}
+
+.card{
+    margin: 0 20px;  
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.card-img-top{
+    object-fit: contain;
+    height: 347px;
+}
+
+.btn.btn-primary{
+    font-weight: bold;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
